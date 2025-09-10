@@ -1,0 +1,17 @@
+# App
+NODE_ENV=development
+APP_PORT=3000
+APP_NAME=SobaStracking
+API_PREFIX=api
+
+# Database
+DB_HOST=192.168.150.146
+DB_PORT=1433
+DB_USERNAME=soba
+DB_PASSWORD=sa123$$
+DB_DATABASE=SdHubTest1
+DB_LOGGING=true
+DB_SYNCHRONIZE=false
+
+# Firebase
+GOOGLE_APPLICATION_CREDENTIALS=src/serviceAccountKey.json

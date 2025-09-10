@@ -1,0 +1,154 @@
+{
+  "data": {
+    "defaultFishCode": [
+      {
+        "code": "PIM",
+        "name": "Cá bẹ",
+        "TCTS_Code": "PIM",
+        "stt": 1
+      },
+      {
+        "code": "OCT",
+        "name": "Bạch tuộc",
+        "TCTS_Code": "OCT",
+        "stt": 1
+      },
+      {
+        "code": "LEF",
+        "name": "Cá bơn",
+        "TCTS_Code": "LEF",
+        "stt": 1
+      },
+      {
+        "code": "RKB",
+        "name": "Cá bò da",
+        "TCTS_Code": "RKB",
+        "stt": 1
+      },
+      {
+        "code": "PIE",
+        "name": "Cá bẹ ấn độ",
+        "TCTS_Code": "PIE",
+        "stt": 1
+      },
+      {
+        "code": "RAG",
+        "name": "Cá bạc má",
+        "TCTS_Code": "RAG",
+        "stt": 1
+      }
+    ],
+    "currentTrip": {
+      "id": "BC0B7BB2-E30C-4593-95BB-4D56B52B3B8B",
+      "tripid": "0b2eb9c1-c010-43f0-b22f-fc7fe24b354d",
+      "port_out": {
+        "code": "1065",
+        "name": "Vàm Láng",
+        "lat": 10.78542460967718,
+        "lng": 106.6409437935902,
+        "time": 1755509290147,
+        "note": "",
+        "ice": 0,
+        "oil": 0
+      },
+      "port_in": {
+        "lat": 0,
+        "lng": 0,
+        "time": 0,
+        "code": "",
+        "name": ""
+      },
+      "num_trip_in_year": 265,
+      "trip_log_gps": [],
+      "logbook": [],
+      "store": {
+        "ice": 0,
+        "oil": 0
+      },
+      "business": "",
+      "chieudaitoanbovangcau": "",
+      "soluoicau": "",
+      "chieudaitoanboluoi": "",
+      "chieucaoluoi": "",
+      "tchuvimiengluoi": "",
+      "tchieucaoluoi": "",
+      "tchieudaigiengphao": "",
+      "tchieudaitoanboluoi": "",
+      "transmission": [],
+      "locationReports": []
+    },
+    "wifiData": {
+      "ssid": "",
+      "password": ""
+    },
+    "locationReports": [],
+    "catchInfo": [],
+    "currentCaptain": {
+      "id": "EB964966-A0E3-42EB-A1CE-08DFDF2BD936",
+      "name": "vo van tam",
+      "identity": "1234567788",
+      "business": "THUYENTRUONG",
+      "chungchi": null,
+      "address": null,
+      "phone": "",
+      "note": null,
+      "year": null,
+      "birthday": null,
+      "shiptripBusiness": "THUYENTRUONG"
+    },
+    "accountData": {
+      "plate_number": "BV-11111-TS",
+      "ship": [
+        {
+          "plate_number": "BV-11111-TS",
+          "businesscode": "1001",
+          "businessName": "Nghề câu",
+          "business2code": "",
+          "business2Name": null
+        }
+      ],
+      "trip": [
+        {
+          "sanluong": 71116925,
+          "sochuyen": 190,
+          "nam": 2025,
+          "next": 264
+        }
+      ],
+      "people": [
+        {
+          "id": "EB964966-A0E3-42EB-A1CE-08DFDF2BD936",
+          "name": "vo van tam",
+          "identity": "1234567788",
+          "business": "THUYENTRUONG",
+          "chungchi": null,
+          "address": null,
+          "phone": "",
+          "note": null,
+          "year": null,
+          "birthday": null,
+          "shiptripBusiness": "THUYENTRUONG"
+        },
+        {
+          "id": "41A8D838-2399-4D53-A468-24533425C0B0",
+          "name": "Trần Minh Tuấn",
+          "identity": "123456789",
+          "business": "THUYENTRUONG",
+          "chungchi": null,
+          "address": null,
+          "phone": null,
+          "note": null,
+          "year": null,
+          "birthday": null,
+          "shiptripBusiness": "THUYENTRUONG"
+        }
+      ]
+    },
+    "store": {
+      "ice": 0,
+      "oil": 0
+    },
+    "trip_id": "0b2eb9c1-c010-43f0-b22f-fc7fe24b354d"
+  },
+  "description": "dev"
+}
