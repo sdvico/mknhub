@@ -1,0 +1,313 @@
+{
+  "pages": {
+    "login": {
+      "title": "Đăng nhập vào tài khoản của bạn",
+      "signin": "Đăng nhập",
+      "signup": "Đăng ký",
+      "divider": "hoặc",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng nhập",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Chưa có tài khoản?",
+        "rememberMe": "Ghi nhớ tôi"
+      }
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Gửi hướng dẫn đặt lại"
+      }
+    },
+    "register": {
+      "title": "Đăng ký tài khoản",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng ký",
+        "haveAccount": "Đã có tài khoản?"
+      }
+    },
+    "updatePassword": {
+      "title": "Cập nhật mật khẩu",
+      "fields": {
+        "password": "Mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu mới"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Mật khẩu không khớp"
+      },
+      "buttons": {
+        "submit": "Cập nhật"
+      }
+    },
+    "error": {
+      "info": "Có thể bạn quên thêm component {{action}} vào resource {{resource}}.",
+      "404": "Xin lỗi, trang bạn truy cập không tồn tại.",
+      "resource404": "Bạn có chắc đã tạo resource {{resource}} không?",
+      "backHome": "Về trang chủ"
+    }
+  },
+  "actions": {
+    "list": "Danh sách",
+    "create": "Tạo",
+    "edit": "Sửa",
+    "show": "Xem",
+    "delete": "Xóa",
+    "cancel": "Hủy"
+  },
+  "buttons": {
+    "add": "Thêm",
+    "create": "Tạo",
+    "save": "Lưu",
+    "logout": "Đăng xuất",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "cancel": "Hủy",
+    "confirm": "Bạn có chắc không?",
+    "filter": "Lọc",
+    "clear": "Xóa",
+    "refresh": "Làm mới",
+    "show": "Xem",
+    "undo": "Hoàn tác",
+    "import": "Nhập",
+    "export": "Xuất",
+    "clone": "Nhân bản",
+    "accept": "Chấp nhận",
+    "acceptAll": "Chấp nhận tất cả",
+    "reject": "Từ chối",
+    "rejectAll": "Từ chối tất cả",
+    "nextStep": "Tiếp",
+    "previousStep": "Trước",
+    "loading": "Đang tải..."
+  },
+  "loading": "Đang tải",
+  "tags": {
+    "clone": "Nhân bản"
+  },
+  "table": {
+    "actions": "Hành động",
+    "inTotal": "tổng cộng"
+  },
+  "actions": {
+    "list": "Danh sách",
+    "create": "Tạo",
+    "edit": "Sửa",
+    "show": "Xem",
+    "delete": "Xóa",
+    "cancel": "Hủy"
+  },
+  "search": {
+    "placeholder": "Tìm theo Mã cửa hàng, E-mail, Từ khóa",
+    "more": "thêm"
+  },
+  "notifications": {
+    "success": {
+      "create": "Tạo thành công",
+      "update": "Cập nhật thành công",
+      "delete": "Xóa thành công"
+    },
+    "error": {
+      "internalError": "Lỗi nội bộ",
+      "validationError": "Lỗi xác thực",
+      "networkError": "Lỗi mạng"
+    }
+  },
+  "users": {
+    "list": {
+      "columns": {
+        "id": "ID",
+        "username": "Tên đăng nhập",
+        "fullname": "Họ và tên",
+        "phone": "Số điện thoại",
+        "state": "Trạng thái"
+      },
+      "search": {
+        "placeholder": "Tìm kiếm người dùng..."
+      }
+    }
+  },
+  "resources": {
+    "users": {
+      "name": "Người dùng",
+      "titles": {
+        "list": "Danh sách người dùng",
+        "create": "Tạo người dùng",
+        "edit": "Sửa người dùng",
+        "show": "Chi tiết người dùng"
+      },
+      "fields": {
+        "id": "ID",
+        "email": "Email",
+        "name": "Tên",
+        "phone": "Số điện thoại",
+        "status": "Trạng thái",
+        "createdAt": "Ngày tạo",
+        "updatedAt": "Ngày cập nhật"
+      },
+      "filters": {
+        "q": "Từ khóa",
+        "status": "Trạng thái"
+      }
+    },
+    "notificationTypes": {
+      "name": "Loại thông báo",
+      "titles": {
+        "list": "Danh sách loại thông báo",
+        "create": "Tạo loại thông báo",
+        "edit": "Sửa loại thông báo",
+        "show": "Chi tiết loại thông báo"
+      },
+      "fields": {
+        "id": "ID",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả",
+        "createdAt": "Ngày tạo",
+        "updatedAt": "Ngày cập nhật"
+      }
+    }
+  },
+  "form": {
+    "required": "Bắt buộc",
+    "optional": "Tùy chọn",
+    "submit": "Gửi",
+    "reset": "Đặt lại",
+    "yes": "Có",
+    "no": "Không"
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc",
+    "email": "Email không hợp lệ",
+    "minLength": "Độ dài tối thiểu là {{min}}",
+    "maxLength": "Độ dài tối đa là {{max}}",
+    "codePattern": "Mã phải gồm chữ hoa, số và dấu gạch dưới, bắt đầu bằng chữ cái",
+    "colorPattern": "Màu phải là mã hex hoặc tên màu hợp lệ",
+    "bgColorPattern": "Màu nền phải là mã hex hoặc tên màu hợp lệ",
+    "integer": "Phải là số nguyên"
+  },
+  "common": {
+    "yes": "Có",
+    "no": "Không",
+    "ok": "OK",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "search": "Tìm kiếm",
+    "createdAt": "Ngày tạo",
+    "preview": "Xem trước"
+  },
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "users": "Người dùng",
+    "shipNotifications": "Thông báo tàu",
+    "devices": "Thiết bị",
+    "ships": "Tàu thuyền",
+    "notificationTypes": "Loại thông báo",
+    "feedbacks": "Phản hồi",
+    "reports": "Báo cáo",
+    "agencies": "Đại lý"
+  },
+  "notificationTypes": {
+    "titles": {
+      "edit": "Sửa loại thông báo"
+    },
+    "fields": {
+      "code": "Mã",
+      "name": "Tên",
+      "form_type": "Loại biểu mẫu",
+      "icon": "Biểu tượng",
+      "color": "Màu chữ",
+      "background_color": "Màu nền",
+      "title": "Tiêu đề",
+      "template_message": "Mẫu thông báo",
+      "priority": "Ưu tiên",
+      "unread": "Chưa đọc"
+    },
+    "actions": {
+      "createType": "Tạo loại"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm loại thông báo..."
+    },
+    "placeholders": {
+      "code": "Nhập mã (ví dụ: WEATHER_ALERT)",
+      "name": "Nhập tên",
+      "form_type": "Nhập loại biểu mẫu (không bắt buộc)",
+      "icon": "Nhập tên class icon (không bắt buộc)",
+      "color": "Nhập màu chữ (ví dụ: #FF0000 hoặc red)",
+      "background_color": "Nhập màu nền (ví dụ: #FFEEEE hoặc lightred)",
+      "title": "Nhập tiêu đề (không bắt buộc)",
+      "template_message": "Nhập nội dung mẫu (không bắt buộc)",
+      "priority": "Nhập mức ưu tiên (không bắt buộc)"
+    }
+  },
+  "ships": {
+    "show": {
+      "title": "Thông tin tàu thuyền"
+    },
+    "fields": {
+      "plate_number": "Số hiệu",
+      "name": "Tên tàu",
+      "status": "Trạng thái",
+      "ownerphone": "SĐT chủ tàu",
+      "last_signal": "Tín hiệu cuối",
+      "location": "Vị trí",
+      "unnamed": "Không tên"
+    },
+    "list": {
+      "search": {
+        "placeholder": "Tìm kiếm tàu thuyền...",
+        "fields": {
+          "plate_number": "Số hiệu",
+          "name": "Tên tàu",
+          "ownerphone": "SĐT chủ tàu"
+        }
+      },
+      "view": {
+        "table": "Bảng",
+        "card": "Thẻ"
+      },
+      "columns": {
+        "plate_number": "Số hiệu",
+        "name": "Tên tàu",
+        "ownerphone": "SĐT chủ tàu",
+        "status": "Trạng thái",
+        "lastReport": "Báo cáo cuối",
+        "lastMessage": "Tin nhắn cuối"
+      },
+      "badges": {
+        "connected": "Kết nối",
+        "boundary_cross": "Vi phạm ranh giới",
+        "near_boundary": "Gần ranh giới",
+        "mkn_short": "MKN < 6h",
+        "mkn_long": "MKN > 6h"
+      },
+      "warnings": "Cảnh báo",
+      "actions": {
+        "view": "Xem chi tiết",
+        "handle_warnings": "Xử lý cảnh báo"
+      },
+      "time": {
+        "minutesAgo": "{{count}} phút trước",
+        "hoursAgo": "{{count}} giờ trước"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+clientReq,ship_code,occurred_at,content,owner_name,owner_phone,type,boundary_crossed,boundary_near_warning,boundary_status_code,lat,lng,agent_code
+550e8400-e29b-41d4-a716-446655440001,VN-12345,2025-09-01T05:30:00Z,"Tàu VN-12345 mất kết nối 5 giờ. Vui lòng kiểm tra.",Nguyễn Văn A,+84901234567,MKN_5H,false,false,,10.762622,106.660172,AGENT001
+550e8400-e29b-41d4-a716-446655440002,VN-67890,2025-09-01T06:15:00Z,"Cảnh báo gần ranh giới",Trần Văn B,+84901112233,KNL,false,true,PERMISSION_001,10.780222,106.664501,
