@@ -1,0 +1,822 @@
+{
+  "error": {
+    "0": "Quá thời gian yêu cầu",
+    "400": "Dữ liệu không hợp lệ, vui lòng kiểm tra lại",
+    "401": "Tài khoản chưa được xác thực",
+    "402": "Bạn đã gửi quá nhiều yêu cầu đến máy chủ",
+    "403": "Bạn không có quyền truy cập chức năng này",
+    "404": "Không tìm thấy máy chủ",
+    "405": "Request không đúng",
+    "406": "Máy chủ không thể đáp ứng yêu cầu",
+    "407": "Bạn chưa xác thực proxy",
+    "408": "Quá thời gian máy chủ xử lý",
+    "409": "Dữ liệu gửi lên không thống nhất",
+    "410": "Dữ liệu không tồn tại trên máy chủ",
+    "411": "Không thể xác định độ dài dữ liệu gửi lên",
+    "412": "Một số dữ liệu truyền lên không đúng",
+    "413": "Dữ liệu yêu cầu quá lớn, máy chủ không thể đáp ứng",
+    "414": "Đường dẫn máy chủ quá lớn",
+    "415": "Dữ liệu gửi lên không đúng định dạng",
+    "416": "Một số dữ liệu truyền lên không thể đáp ứng bởi máy chủ",
+    "417": "Máy chủ không đáp ứng yêu cầu chờ",
+    "500": "Máy chủ không hoạt động",
+    "501": "Máy chủ không thể xử lý yêu cầu",
+    "502": "Máy chủ không đáp ứng yêu cầu chờ",
+    "503": "Máy chủ quá tải hoặc đang bảo trì",
+    "504": "Máy chủ không kết nối được để lấy dữ liệu",
+    "505": "Máy chủ không hỗ trợ giao thức HTTP",
+    "haveError": "Có lỗi xảy ra. Vui lòng thử lại sau",
+    "errorOnRequest": "Một lỗi xảy ra khi gửi yêu cầu",
+    "errorOnHandle": "Một lỗi xảy ra khi xử lý dữ liệu",
+    "serverError": "Lỗi máy chủ",
+    "errorNetwork": "Lỗi kết nối! Vui lòng kiểm tra lại kết nối.",
+    "errorGetPermission": "Lỗi trong quá trình kiểm tra quyền ứng dụng"
+  },
+  "message": {
+    "notification": "Notification",
+    "pleaseCheckGPS": "Please check the GPS on your phone",
+    "QuayLai": "Back",
+    "XacNhanXoaSanPham": "Are you sure you want to permanently delete this product",
+    "XacNhanDiaChi": "Your position is not invalid. Please select other location",
+    "images": "Please choose at least 1 picture",
+    "UploadHinhAnhKhongThanhCong": "Upload image failed",
+    "QuayVeManHinhTruoc": "Finish posting",
+    "DangSanPhamThanhCong": "Posted product successfully",
+    "DangSanPhamThatBai": "Product posting failed!",
+    "VuiLongChoItNhatMotHinh": "Please select at least 1 image",
+    "HinhAnhUpLoadKhongThanhCong": "Image upload failed",
+    "GioiHanChonHinhAnh": "You can only choose {{ n }} pictures!"
+  },
+  "dialog": {
+    "error": "Lỗi",
+    "cancel": "Đóng",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "success": "Thành công",
+    "loading": "Loading",
+    "select": "Chọn"
+  },
+  "component": {
+    "DauVao": {
+      "DaNhap": "Entered",
+      "KiTu": "characters"
+    },
+    "imagePicker": {
+      "TieuDe": "Seected {{min}} to {{max}} image"
+    },
+    "imageOnlinePicker": {
+      "KhongCoHinhAnh": "No picture"
+    },
+    "ItemConversation": {
+      "SanPham": "Product: "
+    },
+    "Tags": {
+      "ThemTuKhoaMoi": "Add new keywords",
+      "ThemTuKhoaDiKemSEO": "Add accompanying keywords for SEO",
+      "hashtags": "Hashtags, interests or search terms"
+    }
+  },
+  "common": {
+    "please_check_input_data_again": "Please check the input data again",
+    "total_exceeds_limit": "Total exceeds limit",
+    "manage_waste": "Manage waste",
+    "error_loading_voyage": "Error loading voyage",
+    "error_no_voyage_data": "No voyage data",
+    "error_fetching_voyages": "Error fetching voyages",
+    "manage_quantity": "Manage quantity",
+    "quantity_error": "Quantity must be greater than 0",
+    "mainFunction": "Main function",
+    "account": "Account",
+    "notification": "Notification",
+    "history": "History",
+    "home": "Home",
+    "confirm": "Confirm",
+    "HoVaTen": "Full name",
+    "signIn": "Sign In",
+    "userName": "User name",
+    "phoneNumber": "Phone number",
+    "password": "Password",
+    "BayGioCaBanCoTheTroChuyenVoiNhau": "Bây giờ các bạn có thể trò chuyện với nhau",
+    "XuHuongTimKiem": "Search trends",
+    "BoLocTimKiem": "Filter search",
+    "nationwide": "Neighborhood",
+    "forgot": "Forgot",
+    "continue": "Continue",
+    "signUp": "Sign up",
+    "signInByEmail": "Sign in by email",
+    "validation": {
+      "password": "Please enter current password",
+      "newPassword": "Please enter new password",
+      "confirmPassword": "Please enter confirm password",
+      "price": "Please enter a selling price greater than 0",
+      "passwordMustCharacter": "{{label}} must be more than {{n}} characters",
+      "passwordLessCharacter": "{{label}} must be less than {{n}} characters",
+      "passwordIncorrect": "Password incorrect!",
+      "fullname": "Please enter Fullname",
+      "phone": "Please enter Phone",
+      "email": "Please enter Email"
+    },
+    "KhongCoBaiDang": "There are no posts",
+    "category": "Category",
+    "ChonDonViSapXep": "Select sort unit",
+    "sortBy": "Sort by",
+    "update": "Update",
+    "XoaBoLoc": "Clear filter",
+    "SapXepTenTheoBangChuCai": "Alphabetical name",
+    "price": "Price",
+    "SapXepTheoBangChuCai": "Alphabetical",
+    "NgayDang": "Date Submitted",
+    "TangDan": "Ascending",
+    "GiamDan": "Decrease",
+    "select": "Select",
+    "favourite": "Favourite",
+    "comment": "Comment",
+    "LicSuTimKiem": "Search history",
+    "search": "Search",
+    "XemThem": "See more",
+    "service": "Service",
+    "free": "Free",
+    "store": "Store",
+    "post": "Post",
+    "review": "Review",
+    "KhongCoDanhGia": "There are no reviews!",
+    "KhongCoPhieuMuaHang": "No vouchers",
+    "KhongCoCuaHangGanDay": "No stores nearby",
+    "QuangCao": "Commercial",
+    "XemChiTiet": "View detail",
+    "all": "All",
+    "DaBan": "Sold",
+    "DangBan": "Sell",
+    "active": "Active",
+    "expired": "Expired",
+    "hidden": "Hidden",
+    "XemHoSo": "View profile",
+    "XemCuaHang": "View store",
+    "keyword": "Keyword",
+    "save": "Save",
+    "product": "Product",
+    "follow": "Follow",
+    "BoTheDoi": "Unfollow",
+    "cancel": "Cancel",
+    "agree": "Agree",
+    "TraGia": "Send Offer",
+    "TiLeTraLoiTinNhan": "Messages reply ratio",
+    "date": {
+      "second": "second",
+      "ago": "ago",
+      "MotPhutTruoc": "1 minute ago",
+      "MotPhutTruocKeTuHienTai": "1 minute from now",
+      "minute": "minute",
+      "hour": "hour",
+      "MotGioTruoc": "1 hour ago",
+      "MotGioTruocTuBayGio": "1 hour from now",
+      "now": "Now",
+      "yesterday": "Yesterday",
+      "tomorrow": "Tomorrow",
+      "day": "day",
+      "last_week": "Last week",
+      "next_week": "Next week",
+      "from_now": "From now",
+      "week": "Week",
+      "month": "month",
+      "lastMonth": "Last month",
+      "lastYear": "Last year",
+      "year": "Year",
+      "nextMonth": "Next month",
+      "nextYear": "Next year"
+    },
+    "next": "Next",
+    "back": "Back",
+    "title": "Title",
+    "nearby": "NearBy",
+    "add": "Add",
+    "payment": "Payment",
+    "area": "Area",
+    "time": "Time",
+    "ChinhSuaBaiDang": "Edit post",
+    "hiddenPost": "Hidden post",
+    "deletePost": "Delete post",
+    "report": "Report",
+    "CapNhatDaBan": "Update sold",
+    "DanhSachNguoiMua": "Buyer List",
+    "XoaCuocTroChuyen": "Delete chat",
+    "block": "Block chats",
+    "BoChanCuocTroChuyen": "Unblock chats",
+    "apply": "Apply",
+    "DinhViViTri": "Locate",
+    "BanDangONgoaiKhuVucNhaVaNoiLamViecVuiLongThuLaiSau": "You are outside the home and work zones. Please check back later",
+    "DiaChiNha": "Address house",
+    "DiaChiLamViec": "Work address",
+    "NhapViTriTimKiem": "Import search location",
+    "QuanHuyenKhac": "Different district",
+    "BanKinh": "Radius",
+    "TinhThanh": "Province",
+    "QuanHuyen": "District",
+    "ThemDiaChiNha": "Add home address",
+    "ThemDiaChilamViec": "Add work address",
+    "DiaChi": "Address",
+    "NhapDiaChi": "Enter address",
+    "BanKinhTimKiem": "Radius search",
+    "ChonTinhThanhPho": "Select city and province",
+    "KhongCoDuLieu": "No data",
+    "totalVoyages": "Total Voyages",
+    "undeclaredVoyages": "Undeclared",
+    "totalQuantity": "Total Quantity",
+    "quantityDetails": "Quantity Details",
+    "enterQuantity": "Enter quantity",
+    "noQuantityData": "No quantity data available",
+    "reportNumber": "Report No.",
+    "createDate": "Create Date",
+    "occupation": "Occupation",
+    "vessel": "Vessel",
+    "customFishTypes": "Additional Fish Types",
+    "addNewFishType": "Add New Fish Type",
+    "selectFishType": "Select Fish Type",
+    "confirmRemoveFishType": "Are you sure you want to remove this fish type?",
+    "editQuantity": "Edit quantity"
+  },
+  "nkkt": {
+    "maxQuantityExceeded": "Total catch quantity cannot exceed {{max}} tons",
+    "departureConfirmation": "Departure confirmation",
+    "departure": "Departure",
+    "ChooseABoat": "Choose a boat",
+    "location": "Location",
+    "port": "Port",
+    "date": "Date",
+    "captain": "Captain",
+    "chiefEngineer": "Chief engineer",
+    "Sailor": "Sailor",
+    "arrivalConformation": "Port arrival confirmation",
+    "PortArrival": "Port arrival",
+    "MeLuoiDaTonTai": "There is still an uncollected fishing net",
+    "MeLuoi": "Fishing net",
+    "ThaLuoi": "Cast the net",
+    "ThuLuoi": "Retrieve fishing net",
+    "MeDathu": "The net is retrieved",
+    "syncData": "Save data",
+    "KhaiBaoNKKT": "Declare logging activities",
+    "listFishingNet": "List of fishing nets",
+    "harvestQuantity": "Harvest quantity",
+    "missingSettingCaptain": "Missing setting captain",
+    "departureDate": "Departure date",
+    "arrivalDate": "Arrival date",
+    "productionDeclaration": "Production declaration",
+    "fishSpecies": "Fish species"
+  },
+  "main": {
+    "chatTab": {
+      "tvChat": "Chat",
+      "tvTabLabel": "Chat"
+    },
+    "profileTab": {
+      "tvProfile": "Profile",
+      "tvTabLabel": "Profile"
+    },
+    "homeTab": {
+      "tvHome": "Home"
+    },
+    "likesTab": {
+      "tvLike": "Favorite"
+    },
+    "searchTab": {
+      "tvSearch": "Search"
+    }
+  },
+  "tabBottom": {
+    "home": "Home",
+    "blog": "Blog",
+    "nearby": "NearBy",
+    "chat": "Chat",
+    "account": "Account"
+  },
+  "tabAccount": {
+    "title": "Account",
+    "menu": {
+      "DiemCuaBan": "Point",
+      "ThietLapViTri": "Setting Location",
+      "TimKiemDaLuu": "Search saved",
+      "HoatDongDiaPhuong": "Local post",
+      "PostHasReview": "Post has reviews",
+      "BlogHasCommnent": "Blog has commnets",
+      "CuuHangCuaToi": "My Store",
+      "CuuHangDangTheoDoi": "Follow Store",
+      "BaiVietCuaToi": "My Blog",
+      "DichVuCuaToi": "My Services",
+      "TrangCaNhan": "My Profile",
+      "SanPhamCuaToi": "My Product",
+      "ViCuaToi": "My Wallet",
+      "ThongKe": "Statistics",
+      "TichDiemDoiQua": "Earn points to redeem gifts"
+    }
+  },
+  "Page": {
+    "userUpdateMyProfile": {
+      "title": "Change information",
+      "FormUpdateProfile": {
+        "HoVaTen": "Fullname",
+        "NgaySinh": "Date of birth",
+        "KhongCoThongTin": "No information",
+        "LuuThongTin": "Save"
+      },
+      "message": {
+        "CapNhatThongTinThanhCong": "Update information successfully",
+        "CapNhatThongTinKhongThanhCong": "Update information failed"
+      }
+    },
+    "UserUpdateMyPassword": {
+      "title": "Change password",
+      "message": {
+        "CapNhatMatKhauThanhCong": "Update password successfully",
+        "CapNhatMatKhauKhongThanhCong": "Update password failed"
+      },
+      "FormUpdatePassword": {
+        "MatKhauHienTai": "Current password",
+        "MatKhauMoi": "New password",
+        "NhapLaiMatKhauMoi": "Confirm password",
+        "validationPassword": "Enter a password of at least 8 characters including both letters and numbers",
+        "update": "Update"
+      }
+    },
+    "ProductForm": {
+      "titleCreate": "Create",
+      "titleUpdate": "Update post",
+      "titleReport": "Report",
+      "FormCreateProduct": {
+        "title": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapMoTa": "Enter description",
+        "MoTa": "Description",
+        "NhapGia": "Enter price",
+        "price": "Price",
+        "address": "Addresss",
+        "NhapDiaChi": "Enter address",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Create",
+        "title_1": "Section for loyal users. ",
+        "title_2": "By subscribing to this section, your products will be displayed on the . section",
+        "title_3": "Good price product",
+        "title_4": "with the corresponding subsidy tag within 24 hours from the time of successful posting",
+        "code": "Enter code",
+        "validation": {
+          "name": "Please enter title",
+          "price": "Please enter price",
+          "MoTa": "Please enter description",
+          "address": "Please enter address",
+          "images": "Please selected images"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        }
+      },
+      "FormEditProduct": {
+        "title": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapMoTa": "Enter description",
+        "MoTa": "Description",
+        "NhapGia": "Enter price",
+        "price": "Price",
+        "address": "Addresss",
+        "NhapDiaChi": "Enter address",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Create",
+        "DanhSachHinhAnhHienTai": "Current image list:",
+        "update": "Update",
+        "code": "Enter code",
+        "validation": {
+          "name": "Please enter title",
+          "price": "Please enter price",
+          "MoTa": "Please enter description",
+          "address": "Please enter address",
+          "images": "Please selected images"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        }
+      },
+      "FormReportProduct": {
+        "report": "Report",
+        "validation": {
+          "name": "Please enter title",
+          "price": "Please enter price",
+          "MoTa": "Please enter description",
+          "address": "Please enter address",
+          "images": "Please selected images"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        },
+        "report_1": "This is an article/page/account that provides false information",
+        "report_2": "The language used in the article is hateful and terroristic",
+        "report_3": "Spam",
+        "report_4": "Contains nudity, violence, harassment, injury/suicide"
+      }
+    },
+    "ProductHome": {
+      "ProductDeals": {
+        "title": "Best Deals"
+      }
+    },
+    "BlogForm": {
+      "titleCreate": "Create",
+      "titleUpdate": "Update post",
+      "FormCreateBlog": {
+        "title": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapGioiThieuNgan": "Enter a short introduction",
+        "shortIntroduction": "Short introduction",
+        "NhapMoTa": "Enter content",
+        "MoTa": "Content",
+        "HinhAnhDinhKem": "Attached image",
+        "DanhSachHinhAnhHienTai": "Current image list: ",
+        "post": "Create",
+        "code": "Enter code",
+        "ThemTuKhoaDiKemSEO": "Add accompanying keywords for SEO",
+        "validation": {
+          "name": "Please enter title",
+          "MoTa": "Please enter description",
+          "shortIntroduction": "Please enter short introduction",
+          "address": "Please enter address",
+          "images": "Please selected images",
+          "price": "Please enter price"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        }
+      },
+      "CategoryBlog": {
+        "DanhMucBaiViet": "List blog"
+      },
+      "FormEditBlog": {
+        "title": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapGioiThieuNgan": "Enter a short introduction",
+        "shortIntroduction": "Short introduction",
+        "NhapMoTa": "Enter content",
+        "MoTa": "Content",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Create",
+        "code": "Enter code",
+        "ThemTuKhoaDiKemSEO": "Add accompanying keywords for SEO",
+        "validation": {
+          "name": "Please enter title",
+          "MoTa": "Please enter description",
+          "shortIntroduction": "Please enter short introduction",
+          "address": "Please enter address",
+          "images": "Please selected images",
+          "price": "Please enter price"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        }
+      }
+    },
+    "CategoryBlog": {
+      "title": "Category blog"
+    },
+    "CategoryProduct": {
+      "title": "Category product"
+    },
+    "NotificationMarket": {
+      "title": "Notification",
+      "Tab": {
+        "active": "Active",
+        "savedSearch": "Saved search"
+      }
+    },
+    "LoginPhoneNumber": {
+      "title": "Sign in",
+      "FormLoginPhoneNumber": {
+        "phoneInputLabel": "Enter you phone number"
+      }
+    },
+    "ListServices": {
+      "recentService": "Recent service",
+      "service": "Service",
+      "nearbyShops": "Nearby store",
+      "noRecentService": "No recent service",
+      "suggestStore": "Suggest store"
+    },
+    "ListServiceyNearby": {
+      "recentService": "Recent service",
+      "noRecentService": "No recent service"
+    },
+    "ListRoom": {
+      "message": "Message",
+      "thereAreNoChats": "There are no chats",
+      "personal": "Personal",
+      "store": "Store"
+    },
+    "Service": {
+      "Category": {
+        "title": "Select post type",
+        "postInMyStore": "Post product",
+        "productPost": "Product Post",
+        "postUtilityService": "Post a utility service",
+        "noPostType": "No post type!"
+      },
+      "CreateService": {
+        "title": "Create Post",
+        "title_form_update": "Update service",
+        "title_form": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapMoTa": "Company X is recruiting part-time data entry staff...",
+        "MoTa": "Description",
+        "NhapGiaDichVuNeuCo": "Enter service if available...",
+        "price": "Price",
+        "address": "Addresss",
+        "NhapDiaChi": "Enter address",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Create",
+        "DonViTinh": "Charging unit",
+        "update": "Update",
+        "DanhSachHinhAnhHienTai": "Current image list: "
+      },
+      "CategoryService": {
+        "DanhMucDichVu": "Category service"
+      },
+      "ServiceDetailComponent": {
+        "BaiVietGanDay": "Recent posts"
+      },
+      "messages": {
+        "CapNhatDichVuKhongThanhCong": "Service update failed!",
+        "CapNhatDichVuThanhCong": "Service update successful"
+      }
+    },
+    "StoreMyFollowComponent": {
+      "Header": {
+        "title": "Store my follow"
+      },
+      "BanChuaThaoDoiCuaHangNao": "You haven't followed any stores yet"
+    },
+    "StoreDetail": {
+      "store": "Store",
+      "DanhGiaCuaHang": "Reviews Store"
+    },
+    "ProductDetail": {
+      "store": "Store",
+      "DanhGiaCuaHang": "Reviews Store",
+      "ChiTietSanPham": "Product detail",
+      "KhuyenMai": "Promotion",
+      "MaKhuyenMai": "Promo code",
+      "ThongTinNguoiDang": "Information poster",
+      "SanPhamKhacCuaCuaHang": "Other products of the store",
+      "SanPhamTuongTu": "Similar product"
+    },
+    "MyProduct": {
+      "title": "My Product"
+    },
+    "MyBlog": {
+      "title": "My Blog"
+    },
+    "userMyProductHasComment": {
+      "title": "Post has reviews"
+    },
+    "SelectedKeyword": {
+      "title": "Selected keyword"
+    },
+    "userPersional": {
+      "HoatDongDiaPhuong": "Local activities",
+      "follow": "Follow",
+      "TiLeTraLoiTinNhan": "Messages reply ratio",
+      "SoLanThayDoiViTri": "Number of times to change position"
+    },
+    "userSettingProfile": {
+      "title": "My Account",
+      "SectionMenu": {
+        "BanCoChacChanMuonDangXuatKhong": "Are you sure you want to sign out?",
+        "DangXuatThanhCong": "Sign out successful!",
+        "DangXuatKhongThanhCong": "Sign out failed!",
+        "CapNhatThongTin": "Update information",
+        "DoiMatKhau": "Change Password",
+        "XoaBoNhoCache": "Clear cache",
+        "XoaTaiKhoan": "Delete account",
+        "logout": "Logout",
+        "BanCoChacChanXoaVinhVienTaiKhoanCuaMinhKhong": "Are you sure you want to permanently delete your account?",
+        "vietnamese": "Vietnamese",
+        "english": "English",
+        "ThayDoiNgonNgu": "Change language"
+      }
+    },
+    "UserMyStatistics": {
+      "title": "Statistical",
+      "SectionMenu": {
+        "SanPhamCuaToi": "My product",
+        "favourite": "Favourite"
+      }
+    },
+    "CreateAdvertisement": {
+      "ChooseObjectTypeAndPosition": {
+        "title": "Settings display",
+        "QuangCaoSanPhamCuaHang": "Advertise the store's products",
+        "HienThiCacBaiDangVaThongBaoCuaCuaHangVeCacSanPhamDichVuSuKienCuaCuaHangChoNhieuNguoi": "Show store posts and announcements about store products, services, events to multiple people",
+        "TangLuotTruyCapCuaHang": "Increase profile store visits",
+        "HienThiTrenTrangChu": "Show at home page",
+        "TangLuotHienThiDenNhieuNgUOI": "Increase store exposure to more people",
+        "HienThiTrenKetQuaTìmKiem": "Show up in Search Results (SEO)"
+      },
+      "FormCreate": {
+        "TieuDeQuangCao": "Ad title"
+      },
+      "FormDateConfig": {
+        "NgayBayGio": "Start now",
+        "CaiDatNgayBatDauNgayKetThuc": "Set start - end date",
+        "NgayBatDau": "From date",
+        "KhongCoThongTin": "No information",
+        "NgayKetThuc": "To date",
+        "budget": "Budget",
+        "ChiPhiGioiHanTrongNgay": "Limited cost of the day",
+        "SoLanHienThiToiDaMoiNgay": "Maximum number of impressions per day",
+        "SoLanHienThiDuocTinhTheoHeThongThongQuaCaiDatThoiGianQuangCaoVaChiPhi": "The number of impressions is calculated according to the system through the advertising time setting, the cost is limited",
+        "LuotTrenNgay": "turns/day"
+      }
+    },
+    "ListUserSaveVoucher": {
+      "ChuaCoNguoiDungLuuVouchers": "No users have saved vouchers yet",
+      "DanhSachNguoiDung": "List user"
+    },
+    "SmartScreenVoucherList": {
+      "expired": "Expired",
+      "ConHang": "Still stands"
+    },
+    "DetailVoucher": {
+      "NgayTao": "Date create"
+    },
+    "voucherForm": {
+      "TenVoucher": "Name voucher",
+      "NhapTen": "Enter name",
+      "MoTa": "Description",
+      "NhapMoTa": "Enter description",
+      "ThoiGianKhuyenMai": "Promotion period",
+      "NgayBatDau": "From date",
+      "NgayKetThuc": "To date",
+      "SoLuong": "Amount",
+      "NhapSoLuong": "Enter amount",
+      "DoiTuongKhuyenMai": "Promotion object",
+      "TaoVoucher": "Create voucher"
+    },
+    "SignUp": {
+      "title": "Sign up"
+    },
+    "signInByEmail": {
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "DangNhapBangSoDienThoai": "Sign in by phone number",
+      "or": "Or",
+      "TiepTucVoiFacebook": "Continue with facebook",
+      "TiepTucVoiGoogle": "Continue with google",
+      "TiepTucVoiApple": "Continue with Apple"
+    },
+    "AdvertisementHome": {
+      "title": "Advertisement"
+    },
+    "ForgotPassword": {
+      "title": "Forgot password",
+      "phoneNumber": "Phone number/Email"
+    },
+    "ChangePassword": {
+      "title": "Forgot password",
+      "MatKhauMoi": "New password",
+      "NhapLaiMatKhauMoiCuaBan": "Re-enter your new password",
+      "validationPassword": "Enter a password of at least 8 characters including both letters and numbers",
+      "changePassword": "Change Password",
+      "MaXacMinhDaDuocGuiDenEmail": "Verification code sent to email",
+      "DoiMatKhauThanhCong": "Change password successfully",
+      "QuayVeDangNhap": "Back to Login"
+    },
+    "ListComment": {
+      "KhongCoBinhLuanNaoHayTroThanhNguoiBinhLuanDauTien": "There are no comments yet. Be the first to comment.",
+      "comment": "Comment",
+      "listReviews": "Reviews"
+    },
+    "FormCreateAdvertisementComponent": {
+      "ChinhSuaBaiDang": "Edit post",
+      "GiuNguyenBanGoc": "Keep original"
+    },
+    "FormLoginEmail": {
+      "signIn": "Sign in",
+      "forgot": "Forgot ?",
+      "password": "Password"
+    },
+    "useSelectStore": {
+      "ThemCuaHangMoi": "Create new store"
+    },
+    "CreateStore": {
+      "ThemHoSoCuaHang": "Create profile store",
+      "bannerStore": "Banner store",
+      "TenCuaHang": "Name store",
+      "DiaChiCuaHang": "Address store",
+      "GioiThieuCuaHang": "About store",
+      "SoDienThoaiDoanhNghiep": "Business phone",
+      "email": "Email",
+      "TaoCuaHang": "Create store",
+      "KhongThemThayDoiTenCuaHangSauKhiKichHoat": "Note: Store name cannot be changed after activation"
+    },
+    "Point": {
+      "Home": {
+        "Point": "Point"
+      },
+      "DashBoardScreen": {
+        "TichDiemDoiQua": "Earn points to redeem gifts",
+        "RuongQua": "Gift Chest",
+        "LichSu": "History",
+        "BanBe": "Friends",
+        "NhiemVu": "Mission",
+        "HuongDan": "Guide",
+        "DungDiem": "Use points",
+        "DiemCuaToi": "My point"
+      },
+      "AffilicateCode": {
+        "ThongTinMaGioiThieu": "Referral code information",
+        "MaGioiThieuCuaBanLa": "Your referral code is:",
+        "DanhSachNguoiDungDuocGioiThieu": "List of referred users:"
+      },
+      "History": {
+        "LichSuNhanDiem": "Point history",
+        "DiemTrenLan": "points / turn"
+      },
+      "ListMission": {
+        "DanhSachNhiemVu": "List mission"
+      },
+      "RequestLogin": {
+        "DiemDanhHangNgayNhanDiemLienTyaNhanNgayQuaTang": "Daily attendance. Receive points instantly, receive gifts",
+        "DiemDanh": "Attendance"
+      }
+    },
+    "VoucherSaved": {
+      "ChuaCoVoucher": "Voucher not available yet"
+    },
+    "Reward": {
+      "ListOfGifts": {
+        "ListOfGifts": "List Of Gifts",
+        "BanCo": "You have"
+      },
+      "FormCreateReward": {
+        "name": "Name",
+        "address": "Addresss",
+        "NhapTieuDe": "Enter title",
+        "NhapDiaChi": "Enter address",
+        "DoiQua": "Gift exchange",
+        "validation": {
+          "VuiLongNhapHotenNguoiNhan": "Please enter fullname",
+          "VuiLongNhapSoDienThoaiNguoiNhan": "Please enter phone number",
+          "VuiLongNhapDiaChiNguoiNhan": "Please enter address"
+        }
+      }
+    },
+    "Register": {
+      "signUp": "Sign up",
+      "hoTen": "Fullname",
+      "SoDienThoai": "Phone number",
+      "NhapMatKhau": "Enter password",
+      "NhapLaiMatKhau": "Re-enter password",
+      "LuuY": "Enter a password of at least 8 characters including letters and numbers and special characters",
+      "BangViecDangKiBanDaDongYVoi": "By registering, you agree to",
+      "DieuKhoanSuDung": "Terms of use",
+      "ByMiaket": "by Miaket"
+    },
+    "FunctionChat": {
+      "DanhGiaNguoiBan": "Match seller",
+      "BanCoMuaHangCuaNguoiBanNayKhong": "Do you buy from this seller?",
+      "DanhDauNguoiMua": "Match the buyer",
+      "BanCoBanChoNguoiNayKhong": "Do you sell to this person?"
+    },
+    "CouponList": {
+      "CouponDaSuDung": "Coupon used",
+      "ChuaSuDungCoupon": "No coupon used yet!"
+    }
+  },
+  "Signature": {
+    "title": "Digital signature",
+    "link": {
+      "placeholder": "Your MySign username",
+      "requirement": {
+        "message": "To use this feature, you need to link your MySign account that has a digital signature set up."
+      },
+      "button": "Comfirm"
+    },
+    "alert": {
+      "success": "Link successfully",
+      "error": "Link failed"
+    }
+  }
+}

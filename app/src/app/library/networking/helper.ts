@@ -1,0 +1,82 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import {AxiosError, AxiosRequestConfig, AxiosResponse, Method} from 'axios';
+import {HandleErrorApi, replaceAll} from '../../common';
+import {
+  CODE_SUCCESS,
+  CODE_TIME_OUT,
+  ERROR_NETWORK_CODE,
+  RESULT_CODE_PUSH_OUT,
+  STATUS_TIME_OUT,
+} from '../../config/api';
+import {ParamsNetwork, ResponseBase} from '../../config/type';
+
+import {translate} from '../utils';
+const responseDefault: ResponseBase<any> = {
+  code: -500,
+  status: false,
+  msg: translate('error:errorData'),
+  data: {},
+};
+
+export const onPushLogout = async () => {
+  // TODO
+  /**
+   * do something when logout
+   */
+};
+
+export const handleResponseAxios = <T>(
+  res: AxiosResponse<T>,
+): ResponseBase<T> => {
+  if (res.data) {
+    return {code: CODE_SUCCESS, status: true, data: res.data, msg: null};
+  }
+  return {
+    ...responseDefault,
+    code: res.status,
+  };
+};
+
+export const handleErrorAxios = (error: AxiosError): ResponseBase<any> => {
+  if (error.code === STATUS_TIME_OUT) {
+    // timeout
+    return HandleErrorApi(CODE_TIME_OUT);
+  }
+  if (error.response) {
+    if (error.response.status === RESULT_CODE_PUSH_OUT) {
+      return HandleErrorApi(RESULT_CODE_PUSH_OUT);
+    } else {
+      return HandleErrorApi(error.response.status);
+    }
+  }
+  return HandleErrorApi(ERROR_NETWORK_CODE);
+};
+
+export const handleQuery = (
+  url: string,
+  query: {[key: string]: string | number},
+) => {
+  if (!query || Object.keys(query).length <= 0) {
+    return url;
+  }
+  let resUrl = url;
+  Object.keys(query).forEach(k => {
+    resUrl = replaceAll(resUrl, `:${k}`, String(query[k]));
+  });
+  return resUrl;
+};
+
+export const handleParameter = <T extends ParamsNetwork>(
+  props: T,
+  method: Method,
+): AxiosRequestConfig => {
+  const {url, body, params, query, ...passProps} = props;
+
+  return {
+    ...passProps,
+    method,
+    url: handleQuery(url, query),
+    data: body,
+    params,
+  };
+};

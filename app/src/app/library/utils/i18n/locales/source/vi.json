@@ -1,0 +1,764 @@
+{
+  "error": {
+    "0": "Quá thời gian yêu cầu",
+    "400": "Dữ liệu không hợp lệ, vui lòng kiểm tra lại",
+    "401": "Tài khoản chưa được xác thực",
+    "402": "Bạn đã gửi quá nhiều yêu cầu đến máy chủ",
+    "403": "Bạn không có quyền truy cập chức năng này",
+    "404": "Không tìm thấy máy chủ",
+    "405": "Request không đúng",
+    "406": "Máy chủ không thể đáp ứng yêu cầu",
+    "407": "Bạn chưa xác thực proxy",
+    "408": "Quá thời gian máy chủ xử lý",
+    "409": "Dữ liệu gửi lên không thống nhất",
+    "410": "Dữ liệu không tồn tại trên máy chủ",
+    "411": "Không thể xác định độ dài dữ liệu gửi lên",
+    "412": "Một số dữ liệu truyền lên không đúng",
+    "413": "Dữ liệu yêu cầu quá lớn, máy chủ không thể đáp ứng",
+    "414": "Đường dẫn máy chủ quá lớn",
+    "415": "Dữ liệu gửi lên không đúng định dạng",
+    "416": "Một số dữ liệu truyền lên không thể đáp ứng bởi máy chủ",
+    "417": "Máy chủ không đáp ứng yêu cầu chờ",
+    "500": "Máy chủ không hoạt động",
+    "501": "Máy chủ không thể xử lý yêu cầu",
+    "502": "Máy chủ không đáp ứng yêu cầu chờ",
+    "503": "Máy chủ quá tải hoặc đang bảo trì",
+    "504": "Máy chủ không kết nối được để lấy dữ liệu",
+    "505": "Máy chủ không hỗ trợ giao thức HTTP",
+    "haveError": "Có lỗi xảy ra. Vui lòng thử lại sau",
+    "errorOnRequest": "Một lỗi xảy ra khi gửi yêu cầu",
+    "errorOnHandle": "Một lỗi xảy ra khi xử lý dữ liệu",
+    "serverError": "Lỗi máy chủ",
+    "errorNetwork": "Lỗi kết nối! Vui lòng kiểm tra lại kết nối.",
+    "errorGetPermission": "Lỗi trong quá trình kiểm tra quyền ứng dụng"
+  },
+  "dialog": {
+    "error": "Lỗi",
+    "cancel": "Đóng",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "success": "Thành công",
+    "loading": "Loading",
+    "select": "Chọn"
+  },
+  "message": {
+    "notification": "Thông báo",
+    "pleaseCheckGPS": "Vui lòng kiểm tra GPS của điện thoại",
+    "back": "Quay lại",
+    "XacNhanXoaSanPham": "Bạn có chắc chắn muốn xóa vĩnh viễn sản phẩm này không",
+    "XacNhanDiaChi": "Vị trí của bạn không phải là không hợp lệ. Vui lòng chọn vị trí khác",
+    "images": "Vui lòng chọn ít nhất 1 hình ảnh",
+    "UploadHinhAnhKhongThanhCong": "Tải lên hình ảnh không thành công",
+    "QuayVeManHinhTruoc": "Hoàn tất đăng tin",
+    "DangSanPhamThanhCong": "Đã đăng sản phẩm thành công",
+    "DangSanPhamThatBai": "Đăng sản phẩm không thành công!",
+    "VuiLongChoItNhatMotHinh": "Please select at least 1 image",
+    "HinhAnhUpLoadKhongThanhCong": "Tải lên hình ảnh không thành công",
+    "GioiHanChonHinhAnh": "Bạn chỉ có thể chọn {{n}} hình ảnh!"
+  },
+  "component": {
+    "input": {
+      "entered": "Đã nhập",
+      "characters": "kí tự"
+    },
+    "imagePicker": {
+      "title": "Đăng từ {{min}} đến {{max}} hình"
+    },
+    "imageOnlinePicker": {
+      "noImages": "Không có hình ảnh"
+    },
+    "ItemConversation": {
+      "product": "Sản phẩm: "
+    },
+    "Tags": {
+      "ThemTuKhoaMoi": "Add new keywords",
+      "ThemTuKhoaDiKemSEO": "Add accompanying keywords for SEO",
+      "hashtags": "Hashtags, interests or search terms"
+    }
+  },
+  "common": {
+    "please_check_input_data_again": "Vui lòng kiểm tra lại dữ liệu đã nhập",
+    "total_exceeds_limit": "Tổng sản lượng vượt quá giới hạn",
+    "quantity_input_helper": "Nhập số lượng hoặc dùng nút +/- để điều chỉnh",
+    "exceeding_limit": "Vượt quá giới hạn: {{amount}} tấn",
+    "remaining_limit": "Còn lại: {{amount}} tấn",
+    "enter_quantity": "Nhập số lượng (KG)",
+    "manage_waste": "Quản lý rác thải",
+    "error_loading_voyage": "Lỗi tải hành trình",
+    "error_no_voyage_data": "Không có dữ liệu hành trình",
+    "error_fetching_voyages": "Lỗi lấy hành trình",
+    "manage_quantity": "Quản lý sản lượng",
+    "quantity_error": "Số lượng không hợp lệ",
+    "mainFunction": "Chức năng chính ( NKKT )",
+    "account": "Tài khoản",
+    "notification": "Thông báo",
+    "history": "Lịch sử",
+    "home": "Trang chủ",
+    "confirm": "Xác nhận",
+    "HoVaTen": "Họ tên",
+    "signIn": "Đăng nhập",
+    "userName": "Tên đăng nhập",
+    "phoneNumber": "Số điện thoại",
+    "password": "Mật khẩu",
+    "BayGioCaBanCoTheTroChuyenVoiNhau": "Bây giờ các bạn có thể trò chuyện với nhau",
+    "XuHuongTimKiem": "Xu hướng tìm kiếm",
+    "BoLocTimKiem": "Bộ lọc tìm kiếm",
+    "nationwide": "Gần tôi",
+    "forgot": "Quên",
+    "continue": "Tiếp tục",
+    "signUp": "Đăng ký",
+    "signInByEmail": "Đăng nhập bằng email",
+    "validation": {
+      "password": "Vui lòng nhập mật khẩu",
+      "MatKhauMoi": "Vui lòng nhập mật khẩu mới",
+      "confirmPassword": "Vui lòng nhập mật khẩu xác nhận",
+      "price": "Vui lòng nhập giá bán lớn hơn 0",
+      "passwordMustCharacter": "{{label}} phải nhiều hơn {{n}} kí tự",
+      "passwordLessCharacter": "{{label}} phải ít hơn {{n}} kí tự",
+      "passwordIncorrect": "Mật khẩu không khớp!",
+      "fullname": "Vui lòng nhập Họ và tên",
+      "phone": "Vui lòng nhập số điện thoại",
+      "email": "Vui lòng nhập Email"
+    },
+    "KhongCoBaiDang": "Không có tin đăng",
+    "category": "Chuyên mục",
+    "ChonDonViSapXep": "Chọn đơn vị sắp xếp",
+    "sortBy": "Sắp xếp theo",
+    "update": "Cập nhật",
+    "XoaBoLoc": "Xóa bộ lọc",
+    "SapXepTenTheoBangChuCai": "Sắp xếp theo",
+    "price": "Giá",
+    "SapXepTheoBangChuCai": "Theo thứ tự bảng chữ cái",
+    "NgayDang": "Ngày đăng",
+    "TangDan": "Tăng dần",
+    "GiamDan": "Giảm dần",
+    "select": "Chọn",
+    "favourite": "Yêu thích",
+    "comment": "Bình luận",
+    "LicSuTimKiem": "Lịch sử tìm kiếm",
+    "search": "Tìm kiếm",
+    "XemThem": "Xem thêm",
+    "service": "Dịch vụ",
+    "free": "Miễn phí",
+    "store": "Cửa hàng",
+    "post": "Bài viết",
+    "review": "Đánh giá",
+    "KhongCoDanhGia": "Không có đánh giá!",
+    "KhongCoPhieuMuaHang": "Không có phiếu mua hàng",
+    "KhongCoCuaHangGanDay": "Không có cửa hàng gần đây",
+    "advertisement": "Quảng cáo",
+    "XemChiTiet": "Xem chi tiết",
+    "all": "Tất cả",
+    "DaBan": "Đã bán",
+    "DangBan": "Đang bán",
+    "active": "Hoạt động",
+    "expired": "Hết hạn",
+    "hidden": "Ẩn",
+    "XemHoSo": "Xem hồ sơ",
+    "XemCuaHang": "Xem cửa hàng",
+    "keyword": "Từ khóa",
+    "save": "Lưu",
+    "product": "Sản phẩm",
+    "follow": "Theo dõi",
+    "BoTheDoi": "Hủy theo dõi",
+    "cancel": "Hủy",
+    "agree": "Đồng ý",
+    "TraGia": "Trả giá",
+    "TiLeTraLoiTinNhan": "Tỷ lệ trả lời tin nhắn",
+    "date": {
+      "second": "giây",
+      "ago": "trước",
+      "MotPhutTruoc": "1 phút trước",
+      "MotPhutTruocKeTuHienTai": "1 phút trước từ bây giờ",
+      "minute": "phút",
+      "hour": "giờ",
+      "MotGioTruoc": "1 giờ trước",
+      "MotGioTruocTuBayGio": "1 giờ trước từ bây giờ",
+      "now": "bây giờ",
+      "yesterday": "Hôm qua",
+      "tomorrow": "Ngày mai",
+      "day": "ngày",
+      "last_week": "Tuần trước",
+      "next_week": "Tuần tới",
+      "from_now": "Từ bây giờ",
+      "week": "Tuần",
+      "month": "tháng",
+      "lastMonth": "Tháng trước",
+      "lastYear": "Năm trước",
+      "year": "Năm",
+      "nextMonth": "Tháng sau",
+      "nextYear": "Năm sau"
+    },
+    "next": "Tiếp tục",
+    "back": "Quay lại",
+    "title": "Tiêu đề",
+    "nearby": "Gần đây",
+    "add": "Thêm",
+    "payment": "Thanh toán",
+    "area": "Khu vực",
+    "time": "Thời gian",
+    "ChinhSuaBaiDang": "Chỉnh sửa bài đăng",
+    "hiddenPost": "Ẩn bài đăng",
+    "deletePost": "Xóa bài đăng",
+    "report": "Báo cáo",
+    "CapNhatDaBan": "Cập nhật đã bán",
+    "DanhSachNguoiMua": "Danh sách người mua",
+    "XoaCuocTroChuyen": "Xóa cuộc trò chuyện",
+    "block": "Chặn cuộc trò chuyện",
+    "BoChanCuocTroChuyen": "Bỏ chặn",
+    "apply": "Áp dụng",
+    "DinhViViTri": "Định vị vị trí",
+    "BanDangONgoaiKhuVucNhaVaNoiLamViecVuiLongThuLaiSau": "Bạn đang ở bên ngoài khu vực nhà riêng và cơ quan. Vui lòng kiểm tra lại sau",
+    "totalVoyages": "Tổng số chuyến",
+    "undeclaredVoyages": "Chưa khai báo",
+    "totalQuantity": "Tổng sản lượng",
+    "quantityDetails": "Chi tiết",
+    "enterQuantity": "Nhập sản lượng",
+    "noQuantityData": "Không có dữ liệu sản lượng",
+    "reportNumber": "Biên bản số",
+    "createDate": "Ngày tạo biên bản",
+    "occupation": "Nghề",
+    "vessel": "Tàu",
+    "customFishTypes": "Loại cá bổ sung",
+    "addNewFishType": "Thêm loại cá mới",
+    "selectFishType": "Chọn loại cá",
+    "confirmRemoveFishType": "Bạn có chắc chắn muốn xóa loại cá này không?",
+    "editQuantity": "Chỉnh sửa số lượng"
+  },
+  "nkkt": {
+    "maxQuantityExceeded": "Tổng sản lượng khai thác không được vượt quá {{max}} tấn",
+    "departureConfirmation": "Xác nhận xuất bến",
+    "departure": "Xuất bến",
+    "ChooseABoat": "Chọn tàu",
+    "location": "Vị trí",
+    "port": "Cảng",
+    "date": "Ngày",
+    "captain": "Thuyền trưởng",
+    "chiefEngineer": "Máy trưởng",
+    "Sailor": "Thuyền viên",
+    "arrivalConformation": "Xác nhận cập cảng",
+    "PortArrival": " Cập cảng",
+    "MeLuoiDaTonTai": "Đang có mẻ lưới chưa được thu",
+    "MeLuoi": "Mẻ lưới",
+    "ThaLuoi": "Thả lưới",
+    "ThuLuoi": "Thu lưới",
+    "MeDathu": "Mẻ lưới đã thu",
+    "syncData": "Lưu data",
+    "KhaiBaoNKKT": "Khai báo NKKT",
+    "listFishingNet": "Danh sách mẻ lưới",
+    "harvestQuantity": "Sản lượng thu ",
+    "missingSettingCaptain": " Thiếu cài đặt thuyền trưởng",
+    "departureDate": "Ngày đi",
+    "arrivalDate": "Ngày cập bến",
+    "productionDeclaration": "Khai báo sản lượng",
+    "fishSpecies": "Loài cá"
+  },
+  "main": {
+    "chatTab": {
+      "tvChat": "Chat",
+      "tvTabLabel": "Chat"
+    },
+    "profileTab": {
+      "tvProfile": "Trang cá nhân",
+      "tvTabLabel": "Trang cá nhân"
+    },
+    "homeTab": {
+      "tvHome": "Trang chủ"
+    },
+    "likesTab": {
+      "tvLike": "Yêu thích"
+    },
+    "searchTab": {
+      "tvSearch": "Tìm kiếm"
+    }
+  },
+  "tabBottom": {
+    "home": "Trang chủ",
+    "blog": "Bài viết",
+    "nearby": "Gần tôi",
+    "chat": "Tin nhắn",
+    "account": "Tài khoản"
+  },
+  "tabAccount": {
+    "title": "Tài khoản",
+    "menu": {
+      "DiemCuaBan": "Điểm của bạn",
+      "ThietLapViTri": "Cập nhật vị trí",
+      "TimKiemDaLuu": "Tìm kiếm đã lưu",
+      "HoatDongDiaPhuong": "Hoạt động địa phương",
+      "BlogHasCommnent": "Blog có comments",
+      "PostHasReview": "Bài đăng có đánh giá",
+      "CuuHangCuaToi": "Cửa hàng của tôi",
+      "CuuHangDangTheoDoi": "Cửa hàng đang theo dõi",
+      "BaiVietCuaToi": "Bài viết của tôi",
+      "DichVuCuaToi": "Dịch vụ của tôi",
+      "TrangCaNhan": "Trang cá nhân",
+      "SanPhamCuaToi": "Bài đăng sản phẩm của tôi",
+      "ViCuaToi": "Ví của tôi",
+      "ThongKe": "Thống kê",
+      "TichDiemDoiQua": "Tích điểm đổi quà"
+    }
+  },
+  "Page": {
+    "userUpdateMyProfile": {
+      "title": "Chỉnh sửa thông tin",
+      "FormUpdateProfile": {
+        "HoVaTen": "Họ tên",
+        "NgaySinh": "Ngày sinh",
+        "KhongCoThongTin": "Chưa có thông tin",
+        "LuuThongTin": "Lưu thông tin"
+      },
+      "message": {
+        "CapNhatThongTinThanhCong": "Cập nhật thông tin thành công!",
+        "CapNhatThongTinKhongThanhCong": "Cập nhật thông tin không thành công!"
+      }
+    },
+    "UserUpdateMyPassword": {
+      "title": "Đổi mật khẩu",
+      "message": {
+        "CapNhatMatKhauThanhCong": "Update password successfully",
+        "CapNhatMatKhauKhongThanhCong": "Update password failed"
+      },
+      "FormUpdatePassword": {
+        "MatKhauHienTai": "Mật khẩu hiện tại",
+        "MatKhauMoi": "Mật khẩu mới",
+        "NhapLaiMatKhauMoi": "Nhập lại mật khẩu mới",
+        "validationPassword": "Nhập mật khẩu tối thiểu 8 kí tự gồm cả chữ và số",
+        "update": "Cập nhật"
+      }
+    },
+    "ProductForm": {
+      "titleCreate": "Đăng bài viết",
+      "titleUpdate": "Chỉnh sửa bài viết",
+      "titleReport": "Báo cáo",
+      "FormCreateProduct": {
+        "title": "Tiêu đề",
+        "NhapTieuDe": "Nhập tiêu đề",
+        "NhapMoTa": "Nhập mô tả",
+        "MoTa": "Mô tả",
+        "NhapGia": "Nhập giá bán",
+        "price": "Giá bán",
+        "address": "Địa chỉ",
+        "NhapDiaChi": "nhập địa chỉ",
+        "HinhAnhDinhKem": "Hình ảnh đính kèm:",
+        "post": "Đăng tin",
+        "title_1": "Mục dành cho người dùng thân thiết",
+        "title_2": "Bằng cách đăng ký mục này, sản phẩm của bạn sẽ được hiển trên phần",
+        "title_3": "Sản phẩm giá tốt",
+        "title_4": "với tag trợ giá tương ứng trong vòng 24 giờ kể từ thời điểm đăng bài thành công",
+        "code": "Nhập code",
+        "validation": {
+          "name": "Vui lòng nhập tiêu đề",
+          "price": "Vui lòng nhập giá bán",
+          "MoTa": "Vui lòng nhập mô tả",
+          "address": "Vui lòng nhập địa chỉ",
+          "images": "Vui lòng chọn hình ảnh"
+        },
+        "message": {
+          "images": "Vui lòng chọn ít nhất 1 hình",
+          "UploadHinhAnhKhongThanhCong": "Upload hình thất bại",
+          "QuayVeManHinhTruoc": "Hoàn tất đăng tin",
+          "DangSanPhamThanhCong": "Đăng sản phẩm thành công",
+          "DangSanPhamThatBai": "Đăng sản phẩm không thành công"
+        }
+      },
+      "FormEditProduct": {
+        "title": "Tiêu đề",
+        "NhapTieuDe": "Nhập tiêu đề",
+        "NhapMoTa": "Nhập mô tả",
+        "MoTa": "Mô tả",
+        "NhapGia": "Nhập giá bán",
+        "price": "Giá bán",
+        "address": "Địa chỉ",
+        "NhapDiaChi": "nhập địa chỉ",
+        "HinhAnhDinhKem": "Hình ảnh đính kèm:",
+        "post": "Post",
+        "DanhSachHinhAnhHienTai": "Danh sách hình hiện tại:",
+        "code": "Nhập code",
+        "update": "Cập nhật",
+        "validation": {
+          "name": "Vui lòng nhập tiêu đề",
+          "price": "Vui lòng nhập giá bán",
+          "MoTa": "Vui lòng nhập mô tả",
+          "address": "Vui lòng nhập địa chỉ",
+          "images": "Vui lòng chọn hình ảnh"
+        },
+        "message": {
+          "images": "Vui lòng chọn ít nhất 1 hình",
+          "UploadHinhAnhKhongThanhCong": "Upload hình thất bại",
+          "QuayVeManHinhTruoc": "Hoàn tất đăng tin",
+          "DangSanPhamThanhCong": "Đăng sản phẩm thành công",
+          "DangSanPhamThatBai": "Đăng sản phẩm không thành công"
+        }
+      },
+      "FormReportProduct": {
+        "report": "Báo cáo",
+        "validation": {
+          "name": "Please enter title",
+          "price": "Please enter price",
+          "MoTa": "Please enter description",
+          "address": "Please enter address",
+          "images": "Please selected images"
+        },
+        "message": {
+          "images": "Please choose at least 1 picture",
+          "UploadHinhAnhKhongThanhCong": "Upload image failed",
+          "QuayVeManHinhTruoc": "Finish posting",
+          "DangSanPhamThanhCong": "Posted product successfully",
+          "DangSanPhamThatBai": "Product posting failed!"
+        },
+        "report_1": "Đây là một bài viết /trang/tài khoản cung cấp thông tin sai lệch",
+        "report_2": "Ngôn ngữ được sử dụng trong bài báo mang tính chất căm thù và khủng bố",
+        "report_3": "Spam",
+        "report_4": "Chứa ảnh khoả thân, bạo lực, quấy rối, thương tích / tự sát"
+      }
+    },
+    "ProductHome": {
+      "ProductDeals": {
+        "title": "Deals tốt nhất"
+      }
+    },
+    "BlogForm": {
+      "titleCreate": "Đăng bài viết",
+      "titleUpdate": "Cập nhật bài viết",
+      "FormCreateBlog": {
+        "title": "Tiêu đề",
+        "NhapTieuDe": "Nhập tiêu đè",
+        "NhapGioiThieuNgan": "Nhập giới thiệu ngắn",
+        "shortIntroduction": "Giới thiệu ngắn",
+        "NhapMoTa": "Nhập nội dung",
+        "MoTa": "Nội dung",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Đăng tin",
+        "code": "Enter code",
+        "validation": {
+          "shortIntroduction": "Vui lòng nhâp giới thiệu ngắn",
+          "name": "Vui lòng nhập tiêu đề",
+          "price": "Vui lòng nhập giá bán",
+          "MoTa": "Vui lòng nhập mô tả",
+          "address": "Vui lòng nhập địa chỉ",
+          "images": "Vui lòng chọn hình ảnh"
+        },
+        "message": {
+          "images": "Vui lòng chọn ít nhất 1 hình",
+          "UploadHinhAnhKhongThanhCong": "Upload hình thất bại",
+          "QuayVeManHinhTruoc": "Hoàn tất đăng tin",
+          "DangSanPhamThanhCong": "Đăng sản phẩm thành công",
+          "DangSanPhamThatBai": "Đăng sản phẩm không thành công"
+        }
+      }
+    },
+    "CategoryBlog": {
+      "title": "Danh mục bài viết"
+    },
+    "CategoryProduct": {
+      "title": "Danh mục sản phẩm"
+    },
+    "NotificationMarket": {
+      "title": "Thông báo",
+      "Tab": {
+        "active": "Hoạt động",
+        "savedSearch": "Hoạt động"
+      }
+    },
+    "LoginPhoneNumber": {
+      "title": "Đăng nhập",
+      "FormLoginPhoneNumber": {
+        "phoneInputLabel": "Nhập số điện thoại của bạn"
+      }
+    },
+    "ListServices": {
+      "recentService": "Recent service",
+      "service": "Service",
+      "nearbyShops": "Nearby store",
+      "noRecentService": "No recent service",
+      "suggestStore": "Suggest store"
+    },
+    "ListServiceyNearby": {
+      "recentService": "Recent service",
+      "noRecentService": "No recent service"
+    },
+    "ListRoom": {
+      "message": "Message",
+      "thereAreNoChats": "There are no chats",
+      "personal": "Personal",
+      "store": "Store"
+    },
+    "Service": {
+      "Category": {
+        "title": "Select post type",
+        "postInMyStore": "Post product",
+        "productPost": "Product Post",
+        "postUtilityService": "Post a utility service",
+        "noPostType": "No post type!"
+      },
+      "CreateService": {
+        "title": "Create Post",
+        "title_form_update": "Update service",
+        "title_form": "Title",
+        "NhapTieuDe": "Enter title",
+        "NhapMoTa": "Company X is recruiting part-time data entry staff...",
+        "MoTa": "Description",
+        "NhapGiaDichVuNeuCo": "Enter service if available...",
+        "price": "Price",
+        "address": "Addresss",
+        "NhapDiaChi": "Enter address",
+        "HinhAnhDinhKem": "Attached image",
+        "post": "Post",
+        "DonViTinh": "Charging unit",
+        "update": "Update",
+        "DanhSachHinhAnhHienTai": "Current image list: "
+      },
+      "CategoryService": {
+        "DanhMucDichVu": "Category service"
+      },
+      "ServiceDetailComponent": {
+        "BaiVietGanDay": "Recent posts"
+      },
+      "messages": {
+        "CapNhatDichVuKhongThanhCong": "Service update failed!",
+        "CapNhatDichVuThanhCong": "Service update successful"
+      }
+    },
+    "StoreMyFollowComponent": {
+      "Header": {
+        "title": "Store my follow"
+      },
+      "BanChuaThaoDoiCuaHangNao": "You haven't followed any stores yet"
+    },
+    "StoreDetail": {
+      "store": "Store",
+      "DanhGiaCuaHang": "Đánh giá cửa hàng"
+    },
+    "ProductDetail": {
+      "store": "Store",
+      "DanhGiaCuaHang": "Đánh giá cửa hàng",
+      "ChiTietSanPham": "Product detail",
+      "KhuyenMai": "Promotion",
+      "MaKhuyenMai": "Promo code",
+      "ThongTinNguoiDang": "Information poster"
+    },
+    "MyProduct": {
+      "title": "My Product"
+    },
+    "MyBlog": {
+      "title": "My Blog"
+    },
+    "userMyProductHasComment": {
+      "title": "Bài đăng có reviews"
+    },
+    "SelectedKeyword": {
+      "title": "Selected keyword"
+    },
+    "userPersional": {
+      "HoatDongDiaPhuong": "Local activities",
+      "follow": "Follow",
+      "TiLeTraLoiTinNhan": "Messages reply ratio",
+      "SoLanThayDoiViTri": "Number of times to change position"
+    },
+    "userSettingProfile": {
+      "title": "My Account",
+      "SectionMenu": {
+        "BanCoChacChanMuonDangXuatKhong": "Are you sure you want to sign out?",
+        "DangXuatThanhCong": "Sign out successful!",
+        "DangXuatKhongThanhCong": "Sign out failed!",
+        "CapNhatThongTin": "Update information",
+        "DoiMatKhau": "Change Password",
+        "XoaBoNhoCache": "Clear cache",
+        "XoaTaiKhoan": "Delete account",
+        "logout": "Logout",
+        "BanCoChacChanXoaVinhVienTaiKhoanCuaMinhKhong": "Are you sure you want to permanently delete your account?",
+        "vietnamese": "Vietnamese",
+        "english": "English",
+        "ThayDoiNgonNgu": "Change language"
+      }
+    },
+    "UserMyStatistics": {
+      "title": "Statistical",
+      "SectionMenu": {
+        "SanPhamCuaToi": "My product",
+        "favourite": "Favourite"
+      }
+    },
+    "CreateAdvertisement": {
+      "ChooseObjectTypeAndPosition": {
+        "title": "Settings display",
+        "QuangCaoSanPhamCuaHang": "Advertise the store's products",
+        "HienThiCacBaiDangVaThongBaoCuaCuaHangVeCacSanPhamDichVuSuKienCuaCuaHangChoNhieuNguoi": "Show store posts and announcements about store products, services, events to multiple people",
+        "TangLuotTruyCapCuaHang": "Increase profile store visits",
+        "HienThiTrenTrangChu": "Show at home page",
+        "TangLuotHienThiDenNhieuNgUOI": "Increase store exposure to more people",
+        "HienThiTrenKetQuaTìmKiem": "Show up in Search Results (SEO)"
+      },
+      "FormCreate": {
+        "TieuDeQuangCao": "Ad title"
+      },
+      "FormDateConfig": {
+        "NgayBayGio": "Start now",
+        "CaiDatNgayBatDauNgayKetThuc": "Set start - end date",
+        "NgayBatDau": "From date",
+        "KhongCoThongTin": "No information",
+        "NgayKetThuc": "To date",
+        "budget": "Budget",
+        "ChiPhiGioiHanTrongNgay": "Limited cost of the day",
+        "SoLanHienThiToiDaMoiNgay": "Maximum number of impressions per day",
+        "SoLanHienThiDuocTinhTheoHeThongThongQuaCaiDatThoiGianQuangCaoVaChiPhi": "The number of impressions is calculated according to the system through the advertising time setting, the cost is limited",
+        "LuotTrenNgay": "turns/day"
+      }
+    },
+    "ListUserSaveVoucher": {
+      "ChuaCoNguoiDungLuuVouchers": "No users have saved vouchers yet",
+      "DanhSachNguoiDung": "List user"
+    },
+    "SmartScreenVoucherList": {
+      "expired": "Expired",
+      "ConHang": "Still stands"
+    },
+    "DetailVoucher": {
+      "NgayTao": "Date create"
+    },
+    "voucherForm": {
+      "TenVoucher": "Name voucher",
+      "NhapTen": "Enter name",
+      "MoTa": "Description",
+      "NhapMoTa": "Enter description",
+      "ThoiGianKhuyenMai": "Promotion period",
+      "NgayBatDau": "From date",
+      "NgayKetThuc": "To date",
+      "SoLuong": "Amount",
+      "NhapSoLuong": "Enter amount",
+      "DoiTuongKhuyenMai": "Promotion object",
+      "TaoVoucher": "Create voucher"
+    },
+    "SignUp": {
+      "title": "Sign up"
+    },
+    "signInByEmail": {
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "DangNhapBangSoDienThoai": "Sign in by phone number",
+      "or": "Or",
+      "TiepTucVoiFacebook": "Continue with facebook",
+      "TiepTucVoiGoogle": "Continue with google",
+      "TiepTucVoiApple": "Continue with Apple"
+    },
+    "AdvertisementHome": {
+      "title": "Advertisement"
+    },
+    "ForgotPassword": {
+      "title": "Forgot password",
+      "phoneNumber": "Phone number/Email"
+    },
+    "ChangePassword": {
+      "title": "Forgot password",
+      "MatKhauMoi": "New password",
+      "NhapLaiMatKhauMoiCuaBan": "Re-enter your new password",
+      "validationPassword": "Enter a password of at least 8 characters including both letters and numbers",
+      "changePassword": "Change Password",
+      "MaXacMinhDaDuocGuiDenEmail": "Verification code sent to email",
+      "DoiMatKhauThanhCong": "Change password successfully",
+      "QuayVeDangNhap": "Back to Login"
+    },
+    "ListComment": {
+      "KhongCoBinhLuanNaoHayTroThanhNguoiBinhLuanDauTien": "There are no comments yet. Be the first to comment.",
+      "comment": "Comment",
+      "listReviews": "Danh sách đánh giá"
+    },
+    "FormCreateAdvertisementComponent": {
+      "ChinhSuaBaiDang": "Edit post",
+      "GiuNguyenBanGoc": "Keep original"
+    },
+    "FormLoginEmail": {
+      "signIn": "Sign in",
+      "forgot": "Forgot ?",
+      "password": "Password"
+    },
+    "useSelectStore": {
+      "ThemCuaHangMoi": "Create new store"
+    },
+    "CreateStore": {
+      "ThemHoSoCuaHang": "Create profile store",
+      "bannerStore": "Banner store",
+      "TenCuaHang": "Name store",
+      "DiaChiCuaHang": "Address store",
+      "GioiThieuCuaHang": "About store",
+      "SoDienThoaiDoanhNghiep": "Business phone",
+      "email": "Email",
+      "TaoCuaHang": "Create store",
+      "KhongThemThayDoiTenCuaHangSauKhiKichHoat": "Note: Store name cannot be changed after activation"
+    },
+    "Point": {
+      "Home": {
+        "Point": "Point"
+      },
+      "DashBoardScreen": {
+        "TichDiemDoiQua": "Earn points to redeem gifts",
+        "RuongQua": "Rương quà",
+        "LichSu": "Lịch sử",
+        "BanBe": "Bạn bè",
+        "NhiemVu": "Nhiệm vụ",
+        "HuongDan": "Hướng dẫn",
+        "DungDiem": "Dùng điểm",
+        "DiemCuaToi": "Điểm của tôi"
+      },
+      "AffilicateCode": {
+        "ThongTinMaGioiThieu": "Referral code information",
+        "MaGioiThieuCuaBanLa": "Your referral code is:",
+        "DanhSachNguoiDungDuocGioiThieu": "List of referred users"
+      },
+      "History": {
+        "LichSuNhanDiem": "Point history",
+        "DiemTrenLan": "điểm / lần"
+      },
+      "ListMission": {
+        "DanhSachNhiemVu": "List mission"
+      }
+    },
+    "VoucherSaved": {
+      "ChuaCoVoucher": "Voucher not available yet"
+    },
+    "Reward": {
+      "ListOfGifts": {
+        "ListOfGifts": "List Of Gifts",
+        "BanCo": "Bạn có"
+      },
+      "FormCreateReward": {
+        "name": "Name",
+        "address": "Addresss",
+        "NhapTieuDe": "Enter title",
+        "NhapDiaChi": "Enter address",
+        "DoiQua": "Gift exchange",
+        "validation": {
+          "VuiLongNhapHotenNguoiNhan": "Please enter fullname",
+          "VuiLongNhapSoDienThoaiNguoiNhan": "Please enter phone number",
+          "VuiLongNhapDiaChiNguoiNhan": "Please enter address"
+        }
+      }
+    },
+    "Register": {
+      "signUp": "Sign up",
+      "hoTen": "Fullname",
+      "SoDienThoai": "Phone number",
+      "NhapMatKhau": "Enter password",
+      "NhapLaiMatKhau": "Re-enter password",
+      "LuuY": "Enter a password of at least 8 characters including letters and numbers and special characters",
+      "BangViecDangKiBanDaDongYVoi": "By registering, you agree to",
+      "DieuKhoanSuDung": "Terms of use",
+      "ByMiaket": "by Miaket"
+    }
+  },
+  "Signature": {
+    "title": "Digital signature",
+    "link": {
+      "placeholder": "Your MySign username",
+      "requirement": {
+        "message": "To use this feature, you need to link your MySign account that has a digital signature set up."
+      },
+      "button": "Comfirm"
+    },
+    "alert": {
+      "success": "Link successfully",
+      "error": "Link failed"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370190270525",
+    "project_id": "mknhub-cab23",
+    "storage_bucket": "mknhub-cab23.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370190270525:android:b5ccd45cef3fbb4a12ea54",
+        "android_client_info": {
+          "package_name": "com.satalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARP50npxT8zMD0EYo9rfe8YaSbBV5_lA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370190270525:android:3451c24e8ef3211f12ea54",
+        "android_client_info": {
+          "package_name": "com.satalert.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARP50npxT8zMD0EYo9rfe8YaSbBV5_lA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

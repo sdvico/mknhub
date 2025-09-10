@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SatAlert</string>
+    <string name="facebook_app_id">1139155470018718</string>
+    <string name="facebook_client_token">6eb64ef423115cc79c178a50288529f6</string>
+    <string name="fb_login_protocol_scheme">fb1139155470018718</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">o9s-ahiqn_XdYfEp1KmeDH2ZcHZxRjBpHZPw_</string>
+</resources>

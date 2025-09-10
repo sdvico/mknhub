@@ -1,0 +1,31 @@
+import Config from 'react-native-config';
+
+export const ENVConfig = {
+  APP_ENV: Config.APP_ENV,
+  API_MWT_URL: Config.API_MWT_URL,
+  API_URL: Config.API_URL,
+  PAYMENT_URL: Config.PAYMENT_URL || 'http://localhost:3000',
+  API_URL_PDF: Config.API_URL_PDF,
+  API_SIGN_URL: Config.API_SIGN_URL,
+  VERSION_APP: Config.VERSION_APP,
+  API_NKKT: Config.API_NKKT,
+  APP_DISPLAY_NAME: Config.APP_DISPLAY_NAME,
+  APP_PLACEHOLDER_NAME: Config.APP_PLACEHOLDER_NAME,
+  VERSION_CODE: Config.VERSION_CODE,
+  VERSION_NAME: Config.VERSION_NAME,
+  BUNDLE_IDENTIFIER: Config.BUNDLE_IDENTIFIER,
+  DEFAULT_FALLBACK_LNG_I18n: Config.DEFAULT_FALLBACK_LNG_I18n,
+  API_KEY: Config.API_KEY,
+  GOOGLE_CLIENT: Config.GOOGLE_CLIENT,
+  // The base VTL URL service for signatures
+  VTL_BASE_URL: Config.VTL_BASE_URL,
+
+  // The VTL client ID
+  VTL_CLIENT_ID: Config.VTL_CLIENT_ID,
+
+  // The VTL client secret
+  VTL_CLIENT_SECRET: Config.VTL_CLIENT_SECRET,
+  HMAC256_SIGN_SECRET: Config.HMAC256_SIGN_SECRET,
+  SOCKETIO_URL: Config.SOCKETIO_URL,
+  SMS_URL: Config.SMS_URL,
+};

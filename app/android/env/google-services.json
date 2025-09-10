@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "213313186886",
+    "project_id": "miaket-361909",
+    "storage_bucket": "miaket-361909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213313186886:android:cf7ed9917520d99a41ee47",
+        "android_client_info": {
+          "package_name": "app.sdhub.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213313186886-78spqoa1v4q51ua09a9b57kbjbt4n9a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.sdhub.com",
+            "certificate_hash": "a9159e88f08653561fe4875bb0e8f107c947cd64"
+          }
+        },
+        {
+          "client_id": "213313186886-4kli87m589cd2uaac20bcfinma62l24i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQniuzlnyC2Te9RzrECH62CdX3DSWUAWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213313186886-4kli87m589cd2uaac20bcfinma62l24i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "213313186886-fbqmrvvr4qrr6vo3ds82akiu172q28m6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.sdhub.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

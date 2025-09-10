@@ -1,0 +1,19 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.sdhub.com",
+    "sha256_cert_fingerprints":
+    ["99:E1:F7:04:D3:F0:DB:A7:AE:E8:29:03:33:3C:80:20:06:17:CD:68:12:33:64:0C:7C:95:A2:7F:4A:7F:DB:E1"]
+  }
+  },
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.sdhub.com",
+    "sha256_cert_fingerprints":
+    ["58:9C:A8:0F:1B:0C:27:3C:CF:D4:4B:40:DE:6E:7D:EB:00:90:DC:A9:84:66:21:B6:47:3D:DE:0F:9F:E0:BE:25"]
+  }
+  }
+]

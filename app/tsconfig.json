@@ -1,0 +1,46 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "target": "ES2022", 
+    "sourceMap": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "outDir": "./built",
+    "types": [
+      "react",
+      "jest",
+      "node"
+    ],
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "moduleSuffixes": [
+      ".ios",
+      ".android",
+      ".default",
+      ""
+    ]
+  },
+  "include": [
+    "packages",
+    "app",
+    "scripts",
+    "./index.js",
+    "./index.share.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "android/**/*",
+    "ios/**/*",
+    "built/**/*",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

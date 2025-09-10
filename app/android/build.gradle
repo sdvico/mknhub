@@ -1,0 +1,29 @@
+buildscript {
+    ext {
+        buildToolsVersion = "35.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 35
+        targetSdkVersion = 35
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.24"
+        defaultEnvFile = file('env/.dev').absolutePath.replace("/android", "")
+        playServicesLocationVersion = "21.0.1"
+    }
+    repositories {
+        google()
+        mavenCentral {
+            // We don't want to fetch react-native from Maven Central as there are
+            // older versions over there.
+            content {
+                excludeGroup("com.facebook.react")
+            }
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
