@@ -1,10 +1,10 @@
-# MKN Hub - Hệ thống Quản lý Tàu Cá
+# MKN Hub - Hệ thống Cảnh báo và Thông báo Mất kết nối VMS
 
 Dự án mã nguồn mở được phát triển theo giấy phép [GNU GPL v3](./LICENSE).
 
 ## Tổng quan
 
-MKN Hub là một hệ thống quản lý tàu cá toàn diện, bao gồm ứng dụng di động React Native, web admin ReactJS, backend NestJS và cơ sở dữ liệu Microsoft SQL Server. Hệ thống được thiết kế để hỗ trợ quản lý tàu cá, theo dõi vị trí, gửi thông báo và báo cáo.
+MKN Hub là một hệ thống cảnh báo và thông báo mất kết nối VMS (Vessel Monitoring System) toàn diện, bao gồm ứng dụng di động React Native, web admin ReactJS, backend NestJS và cơ sở dữ liệu Microsoft SQL Server. Hệ thống được thiết kế để giám sát kết nối VMS, phát hiện sự cố mất kết nối và gửi cảnh báo kịp thời đến các bên liên quan.
 
 ## Kiến trúc hệ thống
 
@@ -26,32 +26,49 @@ MKN Hub là một hệ thống quản lý tàu cá toàn diện, bao gồm ứng
 ### 1. Mobile App (React Native)
 
 - Ứng dụng di động cho người dùng cuối
-- Theo dõi vị trí tàu cá
-- Nhận thông báo và cảnh báo
-- Báo cáo vị trí thủ công
-- Phản ánh khó khăn
+- Theo dõi trạng thái kết nối VMS
+- Nhận cảnh báo mất kết nối VMS
+- Báo cáo sự cố kết nối thủ công
+- Phản ánh khó khăn về VMS
 
 ### 2. Web Admin (ReactJS)
 
 - Giao diện quản trị web
 - Quản lý người dùng và tàu
-- Theo dõi thống kê và báo cáo
-- Quản lý thông báo và cài đặt hệ thống
+- Giám sát trạng thái kết nối VMS
+- Quản lý cảnh báo và cài đặt hệ thống
+- Dashboard theo dõi sự cố VMS
 
 ### 3. Backend API (NestJS)
 
 - RESTful API cho tất cả chức năng
 - Xác thực và phân quyền
-- Xử lý dữ liệu và business logic
+- Giám sát kết nối VMS real-time
+- Xử lý cảnh báo mất kết nối
 - Tích hợp Firebase cho push notification
 
 ### 4. Database (Microsoft SQL Server)
 
-- Lưu trữ dữ liệu người dùng, tàu, thông báo
+- Lưu trữ dữ liệu người dùng, tàu, cảnh báo VMS
 - Quản lý phân quyền và nhóm người dùng
-- Lưu trữ báo cáo và phản ánh
+- Lưu trữ lịch sử kết nối VMS và sự cố
+- Lưu trữ báo cáo và phản ánh về VMS
 
 ## Chức năng chính
+
+### Giám sát kết nối VMS
+
+- Theo dõi trạng thái kết nối VMS real-time
+- Phát hiện sự cố mất kết nối tự động
+- Cảnh báo ngay lập tức khi có sự cố
+- Lịch sử kết nối và thống kê
+
+### Hệ thống cảnh báo
+
+- Gửi cảnh báo push qua Firebase
+- Cảnh báo qua SMS và email
+- Quản lý loại cảnh báo VMS
+- Lịch trình gửi cảnh báo tự động
 
 ### Quản lý người dùng
 
@@ -59,38 +76,24 @@ MKN Hub là một hệ thống quản lý tàu cá toàn diện, bao gồm ứng
 - Phân quyền theo nhóm (Administrators, Managers, Users)
 - Quản lý thông tin cá nhân
 
-### Quản lý tàu cá
+### Quản lý tàu và thiết bị VMS
 
 - Đăng ký và quản lý thông tin tàu
-- Theo dõi vị trí real-time
-- Quản lý thiết bị định vị
-
-### Hệ thống thông báo
-
-- Gửi thông báo push qua Firebase
-- Quản lý loại thông báo
-- Lịch trình gửi thông báo tự động
+- Quản lý thiết bị VMS trên tàu
+- Theo dõi trạng thái thiết bị
+- Cảnh báo khi thiết bị VMS gặp sự cố
 
 ### Báo cáo và phản ánh
 
-- Báo cáo vị trí thủ công
-- Phản ánh khó khăn từ người dùng
-- Thống kê và báo cáo tổng hợp
-
-### Quản lý ngư trường
-
-- Định nghĩa các khu vực đánh bắt
-- Cảnh báo khi tàu ra khỏi vùng cho phép
-
-### Báo cáo thời tiết
-
-- Cập nhật thông tin thời tiết biển
-- Cảnh báo thời tiết nguy hiểm
+- Báo cáo sự cố VMS thủ công
+- Phản ánh khó khăn về VMS từ người dùng
+- Thống kê và báo cáo sự cố VMS
 
 ### Quản lý cơ quan
 
 - Quản lý các cơ quan liên quan
 - Phân quyền theo cơ quan
+- Cấu hình cảnh báo theo cơ quan
 
 ## Công nghệ sử dụng
 
@@ -173,6 +176,13 @@ sqlcmd -S localhost -U sa -P your_password -d mknhub -i backup.sql
 - `GET /ships/:id` - Chi tiết tàu
 - `PATCH /ships/:id` - Cập nhật tàu
 
+### VMS Monitoring
+
+- `GET /vms/status` - Trạng thái kết nối VMS
+- `POST /vms/heartbeat` - Cập nhật heartbeat VMS
+- `GET /vms/alerts` - Danh sách cảnh báo VMS
+- `POST /vms/alerts` - Tạo cảnh báo VMS
+
 ### Notifications
 
 - `GET /notifications` - Danh sách thông báo
@@ -181,15 +191,15 @@ sqlcmd -S localhost -U sa -P your_password -d mknhub -i backup.sql
 
 ### Reports
 
-- `GET /reports` - Danh sách báo cáo
-- `POST /reports` - Tạo báo cáo mới
-- `GET /reports/location` - Báo cáo theo vị trí
+- `GET /reports` - Danh sách báo cáo sự cố VMS
+- `POST /reports` - Tạo báo cáo sự cố mới
+- `GET /reports/vms-issues` - Báo cáo sự cố VMS
 
 ### Feedbacks
 
-- `GET /feedbacks` - Danh sách phản ánh
+- `GET /feedbacks` - Danh sách phản ánh về VMS
 - `POST /feedbacks` - Tạo phản ánh mới
-- `GET /feedbacks/stats` - Thống kê phản ánh
+- `GET /feedbacks/stats` - Thống kê phản ánh VMS
 
 ## Phân quyền
 
@@ -255,9 +265,11 @@ Website: [https://sdvico.vn](https://sdvico.vn)
 ## Roadmap
 
 - [ ] Hoàn thiện React Native app
-- [ ] Tích hợp bản đồ real-time
-- [ ] Thêm tính năng AI cho dự đoán thời tiết
+- [ ] Tích hợp giám sát VMS real-time
+- [ ] Thêm tính năng AI cho dự đoán sự cố VMS
 - [ ] Tối ưu hóa performance
 - [ ] Thêm unit tests và e2e tests
 - [ ] Docker containerization
 - [ ] CI/CD pipeline
+- [ ] Tích hợp với các hệ thống VMS hiện có
+- [ ] Phát triển mobile app cho thuyền trưởng
